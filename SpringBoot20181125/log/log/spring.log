@@ -1,0 +1,31 @@
+2018-11-25 16:37:58.372  INFO 19524 --- [main] com.springboot.boot.BootRun              : Starting BootRun on DESKTOP-5KFRPKD with PID 19524 (E:\workspace_learn\SpringBoot20181125\bin started by 1 in E:\workspace_learn\SpringBoot20181125)
+2018-11-25 16:37:58.374  INFO 19524 --- [main] com.springboot.boot.BootRun              : No active profile set, falling back to default profiles: default
+2018-11-25 16:37:58.404  INFO 19524 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e77a1ed: startup date [Sun Nov 25 16:37:58 CST 2018]; root of context hierarchy
+2018-11-25 16:37:59.210  WARN 19524 --- [main] o.h.v.m.ParameterMessageInterpolator     : HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-11-25 16:37:59.538  INFO 19524 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 80 (http)
+2018-11-25 16:37:59.549  INFO 19524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-25 16:37:59.550  INFO 19524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-11-25 16:37:59.646  INFO 19524 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-25 16:37:59.647  INFO 19524 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1245 ms
+2018-11-25 16:37:59.767  INFO 19524 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-25 16:37:59.770  INFO 19524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-25 16:37:59.771  INFO 19524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-25 16:37:59.771  INFO 19524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-25 16:37:59.771  INFO 19524 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-25 16:38:00.115  WARN 19524 --- [main] o.h.v.m.ParameterMessageInterpolator     : HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-11-25 16:38:00.315  INFO 19524 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e77a1ed: startup date [Sun Nov 25 16:37:58 CST 2018]; root of context hierarchy
+2018-11-25 16:38:00.431  INFO 19524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/user/queryById.action]}" onto public com.springboot.domain.User com.springboot.controller.UserController.queryById()
+2018-11-25 16:38:00.434  INFO 19524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-25 16:38:00.434  INFO 19524 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-25 16:38:00.465  INFO 19524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-25 16:38:00.466  INFO 19524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-25 16:38:00.502  INFO 19524 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-25 16:38:00.660  INFO 19524 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-11-25 16:38:00.719  INFO 19524 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 80 (http)
+2018-11-25 16:38:00.722  INFO 19524 --- [main] com.springboot.boot.BootRun              : Started BootRun in 2.571 seconds (JVM running for 2.863)
+2018-11-25 16:38:06.280  INFO 19524 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-25 16:38:06.280  INFO 19524 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-25 16:38:06.296  INFO 19524 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-11-25 16:38:06.691 DEBUG 19524 --- [http-nio-80-exec-1] c.s.mapper.UserMapper.queryById          : ==>  Preparing: select * from t_user where id = ? 
+2018-11-25 16:38:06.714 DEBUG 19524 --- [http-nio-80-exec-1] c.s.mapper.UserMapper.queryById          : ==> Parameters: 11(String)
+2018-11-25 16:38:06.722 DEBUG 19524 --- [http-nio-80-exec-1] c.s.mapper.UserMapper.queryById          : <==      Total: 1
